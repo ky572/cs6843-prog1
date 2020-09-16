@@ -20,11 +20,11 @@ def welcome_assignment_answers(question):
     "Is MD5 a secured hashing algorithm? - Yes/No":
       "No",
     "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
-      3,
+      5,
     "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number":
       4
   }
-  
+
   return answer_key.get(question, "Question not recognized")
 # Complete all the questions.
 
